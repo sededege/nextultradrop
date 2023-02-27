@@ -21,6 +21,7 @@ export default function Home({ resultado }) {
       <div className="w-full h-full grid sm:grid-cols-1 md:grid-cols-4 lg:grid-colds-5 gap-10">
         {data.map((e, index) => (
           <motion.div
+          key={index}
             initial={{ opacity: 0}}
             animate={{ opacity: 1}}
             transition={{  ease: "easeOut", duration: 2 , delay: 0.3 + index / 3}}

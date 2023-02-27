@@ -15,6 +15,7 @@ const url = ({ collection }) => {
             width={500}
             height={400}
             alt={data.Title}
+            priority={true}
           />
         </div>
         <div className="text-white gap-6 flex flex-col relative">

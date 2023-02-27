@@ -12,6 +12,7 @@ const Card = ({img, title, description, me, id}) => {
               width={400}
               height={400}
               alt="nft"
+              priority={true}
             />
            </Link>
            
