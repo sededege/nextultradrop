@@ -18,8 +18,9 @@ export default function Home({ resultado }) {
   return (
     <Layout pagina="Inicio">
       <div className="w-full h-full grid sm:grid-cols-1 md:grid-cols-3 lg:grid-colds-4 gap-10">
-        {data.map((e) => (
+        {data.map((e,index) => (
          <Card 
+         key={index}
          img={e.attributes.Image.data.attributes.url}
           title={e.attributes.Title}
          description={e.attributes.Description}
