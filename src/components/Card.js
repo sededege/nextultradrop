@@ -4,7 +4,7 @@ import React from 'react'
 
 const Card = ({img, title, description, me, id}) => {
   return (
-    <div className="md:p-6 bg-[#27292d] shadow-lg shadow-slate-700 rounded-lg text-white relative pb-10">
+    <div className="md:p-6 p-4 bg-[#27292d] shadow-lg shadow-slate-700 rounded-lg text-white relative pb-10">
            <Link href={`collection/${id}`}>
            <Image
               className="rounded-lg hover:scale-105 cursor-pointer transition duration-500"

@@ -37,17 +37,22 @@ const url = ({ collection }) => {
               </p>
             </div>
           </div>
-          <div className="flex gap-4 items-center md:absolute md:bottom-0 md:right-0">
-            <Link href='/' className="underline font-bold">Back</Link>
-            <button className="w-[200px] bg-[#8464e2] hover:bg-white border-2 border-[#8464e2] hover:text-[#8464e2] transition duration-500 p-6 rounded-lg font-bold">
+          <div className="md:flex-row  flex-col flex gap-4 items-center md:absolute md:bottom-0 md:right-0">
+            <Link href="/" className="hidden md:flex underline font-bold">
+              Back
+            </Link>
+            <button className="w-full md:w-[200px] bg-[#8464e2] hover:bg-white border-2 border-[#8464e2] hover:text-[#8464e2] transition duration-500 p-6 rounded-lg font-bold">
               Mint one
             </button>
             <a
-              className="w-[200px] bg-pink-500 hover:bg-white border-pink-500 border-2 hover:text-pink-500 transition duration-500  p-6 rounded-lg font-bold text-center"
+              className="w-full md:w-[200px] bg-pink-500 hover:bg-white border-pink-500 border-2 hover:text-pink-500 transition duration-500  p-6 rounded-lg font-bold text-center"
               href={data.ME}
             >
               Buy on Magic Eden
             </a>
+            <Link href="/" className="underline font-bold text-white md:hidden flex text-center p-2 mx-auto">
+            Back
+          </Link>
           </div>
         </div>
       </div>
