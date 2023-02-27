@@ -3,11 +3,11 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Layout = ({ children, pagina }) => {
+const Layout = ({ children, page }) => {
   return (
     <>
       <Head>
-        <title>UltraDrop Test</title>
+        <title>UltraDrop - {page}</title>
         <meta name="description" content="Ultradrop test by Sebagtech" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

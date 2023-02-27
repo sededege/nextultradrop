@@ -14,10 +14,10 @@ export async function getServerSideProps() {
 }
 
 export default function Home({ resultado }) {
-  const [data] = useState(resultado.data);
+  const data = resultado.data;
   return (
-    <Layout pagina="Inicio">
-      <div className="w-full h-full grid sm:grid-cols-1 md:grid-cols-3 lg:grid-colds-4 gap-10">
+    <Layout page="Inicio">
+      <div className="w-full h-full grid sm:grid-cols-1 md:grid-cols-4 lg:grid-colds-5 gap-10">
         {data.map((e,index) => (
          <Card 
          key={index}
@@ -25,6 +25,7 @@ export default function Home({ resultado }) {
           title={e.attributes.Title}
          description={e.attributes.Description}
          me={e.attributes.ME}
+         id={e.id}
          />
         ))}
       </div>
