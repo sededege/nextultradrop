@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 const Footer = () => {
   return (
-    <footer className="w-full flex justify-between h-[10vh] items-center px-20 ">
+    <footer className="w-full flex justify-between h-[10vh] items-center px-10 md:px-20 ">
     <p className="text-white font-bold">Test by Sebagtech</p>
     <div className="flex gap-4 ">
           <a href="https://www.linkedin.com/in/sebagtech/">

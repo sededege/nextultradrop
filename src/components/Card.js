@@ -3,7 +3,7 @@ import React from 'react'
 
 const Card = ({img, title, description, me}) => {
   return (
-    <div className="p-6 bg-[#27292d] shadow-2xl rounded-lg text-white relative pb-10">
+    <div className="md:p-6 bg-[#27292d] shadow-2xl rounded-lg text-white relative pb-10">
             <Image
               className="rounded-lg hover:scale-105 cursor-pointer transition-all 2s ease-linear"
               src={img}
