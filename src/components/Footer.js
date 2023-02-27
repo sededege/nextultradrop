@@ -26,7 +26,6 @@ const Footer = () => {
             {" "}
             <AiOutlineMail className="text-[2rem] text-white" />
           </a>
-             
         </div>
     </footer>
   );

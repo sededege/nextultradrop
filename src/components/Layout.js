@@ -7,7 +7,7 @@ const Layout = ({ children, pagina }) => {
   return (
     <>
       <Head>
-        <title>Ultradrop test</title>
+        <title>UltraDrop Test</title>
         <meta name="description" content="Ultradrop test by Sebagtech" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
